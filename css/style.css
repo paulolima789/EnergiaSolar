@@ -1,0 +1,229 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  font-family: Arial;
+  list-style: none;
+}
+.tituloNav {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+.aNav {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #001f36;
+}
+
+.ulNav {
+  display: flex;
+}
+.ulNav li {
+  margin-left: 10px;
+}
+.ulNav li a {
+  display: block;
+  padding: 10px;
+}
+
+.tudo {
+  position: absolute;
+  width: 100%;
+  height: 4000px;
+  margin: 0px;
+  display: block;
+
+  background: white;
+}
+
+.sumario {
+  width: 20%;
+  height: ;
+  margin: 0px;
+  background: rgba(37, 79, 98, 0.5);
+  position: fixed;
+}
+.indice {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.trabalho {
+  width: 80%;
+  height: 600px;
+  margin: 0px 20%;
+  position: absolute;
+}
+.TituloTrabalho {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  margin-top: 50px;
+}
+.TituloTrabalho2 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: left;
+  margin: 50px 100px;
+}
+.ulSumario {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 10px;
+  padding: 0px;
+  color: black;
+}
+.liSumario3 {
+  margin-bottom: 10px;
+}
+.liSumario2 {
+  padding: 0px;
+  margin: 0px 30px;
+}
+.ulSumario > li > a:visited {
+  color: #413d3d;
+}
+.ulSumario > li > a:hover {
+  background: #c0c000;
+  color: #050801;
+  box-shadow: 0 0 5px #c0c000, 0 0 25px #c0c000, 0 0 50px #c0c000,
+    0 0 200px #c0c000;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.trabalho p {
+  margin: 20px 30px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: justify;
+  color: #0f0f0f;
+}
+.listaTotal {
+  margin: 0px 100px;
+  padding:0px;
+}
+.lista {
+  list-style: disc;
+}
+
+
+figure > img {
+  width: 700px;
+  height: 400px;
+}
+
+figure {
+  text-align: center;
+  font-size: 15px;
+}
+.txtimg {
+  display: flex;
+  margin-top: 0px;
+}
+a:hover {
+  background: #ffffff;
+  color: #050801;
+  box-shadow: 0 0 15px #ffffff, 0 0 55px #ffffff;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.aNav {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+
+
+
+
+/*Tela Noticia*/
+
+.noticias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*Tela Noticia|Tela Projetos*/
+
+.figure {
+  width: 700px;
+  text-align: center;
+  margin: 10px 10px;
+}
+.figure > figcaption > a {
+  font-size: 16px;
+  font-weight: 450;
+}
+.figure > figcaption {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+.figure > figcaption > p {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 15px;
+}
+
+/*Tela Projetos*/
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
